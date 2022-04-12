@@ -32,12 +32,12 @@ body {
     justify-content: space-between;
     color: rgb(137, 37, 231);
     text-emphasis-color: rgb(137, 37, 231);
-    text-size-adjust: 30px;
+    
 
 }
 .navbar-list li {
     list-style: none;
-    padding-left: 200px;
+    padding-left: 150px;
 }
 .navbar-list li a {
     padding: 1px;
@@ -91,6 +91,7 @@ body {
     justify-content: space-between;
     padding-bottom: 10px;
 }
+/*About End*/
 /* Resume */
 #my-resume {
     justify-content: center;
@@ -120,6 +121,13 @@ body {
     background-color: #32cd32;
 }
  /* Resume End */
+ /*Project Details*/
+ #my-projects {
+     background-color: #fcfc47;
+     padding: 20px;
+     margin-bottom: 20px;
+ }
+ /*Project End*/
  /*contact ME */
  #contact-me {
      padding-left: 50px
