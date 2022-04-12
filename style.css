@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+
+/* Navbar Start */
+#navbar {
+    background-color: rgb(43, 192, 241);
+}
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navbar-list > h2 {
+    text-decoration: underline;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 60%;
+}
+.navbar-list {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    color: rgb(137, 37, 231);
+    text-emphasis-color: rgb(137, 37, 231);
+    text-size-adjust: 30px;
+
+}
+.navbar-list li {
+    list-style: none;
+    padding-left: 200px;
+}
+.navbar-list li a {
+    padding: 1px;
+    font-size: 30px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-list li a:hover {
+    background-color: white;
+    color: #3944F7;
+}
+ /* About Me */
+ #about-me {
+     background-color: aqua;
+     padding: 20px;
+      
+ }
+ .ab-1 {
+     text-decoration: underline;
+    text-align: center;
+ }
+ .profile-image-wraper > img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     border-radius: 100%;
+     max-width: auto;
+     max-height: 10cm;
+ }
+ #personal-info h2 {
+     text-align: center; 
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ .brief-info {
+     padding: 20px;
+     text-indent: 2%;
+     text-align: justify;
+     text-decoration-color: rgb(49, 29, 29);
+ }
+ .personal-skills > h2 {
+     text-align: center;
+     text-decoration: underline;    
+ }
+.about-skills li {
+    display:grid;
+     margin-top: 20px;
+     margin-bottom: 20px;
+    justify-content: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+/* Resume */
+#my-resume {
+    justify-content: center;
+    background-color: #FF1493;
+    height: 200px;
+    flex-direction: column;
+}
+.resume-wrap {
+    text-align: center;
+    text-decoration: underline;
+    column-gap: 20%;
+}
+.cv-button{
+    margin-top: 50px;
+    margin-left: 35%;
+}
+.download-button {
+    width: 50%;
+    padding: 15px 5px;
+    border-radius: 0%;
+    background-color:  #00BFFF;
+    color:ivory;
+    border: 10px;
+    transition: all 1s ease-in-out;
+}
+.download-button:hover {
+    background-color: #32cd32;
+}
+ /* Resume End */
+ /*contact ME */
+ #contact-me {
+     padding-left: 50px
+     display: ;
+     justify-content: space-between;
+     background-color: #2dd87488 ;
+
+ }
+ .contact-details {
+     display: flex;
+     margin-left: 15%;
+     margin-right: 15%;
+     justify-content: space-between;
+ }
+ .contact-information-content {
+     display: inline;
+     padding: 0%;
+ }
+ .mb-3 input{
+     width: 150%;
+
+ }
+ .mb-3 button{
+     padding: 15px 5px;
+     width: 150%;
+     border-radius: 0px;
+     border-color: #FF1493;
+     background-color: #00BFFF;
+     color: white;
+     transition: all 1s ease-in-out;
+ }
+ .mb-3 button:hover{
+     background-color: #FF1493;
+
+      
+     }
+ 
+textarea {
+        font-family: 'Ubuntu', sans-serif;
+        width: 150%;
+        resize: none;
+        padding: 20px 5px;
+        border-radius: 0px;
+        border: none;
+        color: #3944F7;
+        font-size: 20px;
+        border-bottom: 1px solid #3944F7;
+}
+
+ /* Contact form end*/
+
+/* Footer */
+#footer {
+    background-color: #00BFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social-icons-list {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.footer-social-icons-list li {
+    list-style: none;
+}
+.footer-social-icons-list li a {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 70%;
+    transition: all 0.5s ease-in-out;
+}
+.footer-social-icons-list li a:hover {
+    background-color: white;
+    color: #3944F7;
+}
+.footer-heading > h2 {
+    color: white;
+}
+ 
+/* Footer End */
